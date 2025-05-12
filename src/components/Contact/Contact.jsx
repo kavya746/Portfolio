@@ -3,19 +3,20 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 const Contact = () => {
   const form = useRef();
   const [isSent, setIsSent] = useState(false);
 
   const sendEmail = (e) => {
-    e.preventDefault();
+     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_axbtt7a",  // Replace with your EmailJS Service ID
-        "template_1ziboq3",  // Replace with your EmailJS Template ID
+        "service_a4xs9os",  // Replace with your EmailJS Service ID
+        "template_jcnmwb8",  // Replace with your EmailJS Template ID
         form.current,
-        "Rz7W9pVF0HdDryNNL"  // Replace with your EmailJS Public Key
+        "SznCyVx2W0Qdt5dWd"  // Replace with your EmailJS Public Key
       )
       .then(
         () => {
