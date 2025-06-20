@@ -138,6 +138,16 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      title: "Employee Track",
+      description:
+        "A comprehensive employee management system using MongoDB, Express.js, React.js and Node.js. The application includes a secure login system, an admin dashboard, and features for adding employees, managing salaries, and tracking leaves.The system allows seamless tracking and management of employee data through an intuitive interface.",
+      //image: githubdetLogo,
+       tags: ["React", "Node.js", "Express.js", "MongoDB"],
+      github: "https://github.com/kavya746/Employeetrack-frontend", 
+      webapp: "https://employeetrack-frontend-ten.vercel.app/login",
+    },
+    {
+      id: 2,
       title: "Stock Movement Prediction Analysis, ML Project",
       description:
         "An intelligent and data-driven machine learning model developed to predict stock price movements with high precision. By analyzing key features such as historical stock data, trading volume, market sentiment, technical indicators, and economic trends, the model uncovers patterns that influence stock performance. Ideal for investors, analysts, and financial institutions, this tool empowers users to make informed decisions, reduce investment risks, and optimize trading strategies using predictive analytics and real-time insights.",
@@ -146,4 +156,5 @@ export const SkillsInfo = [
       github: "https://github.com/kavya746/stock-prediction",
       // webapp: "https://githubprofiledetective.netlify.app/",
     },
+
   ];  
